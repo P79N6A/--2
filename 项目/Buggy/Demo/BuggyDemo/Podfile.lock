@@ -1,0 +1,38 @@
+PODS:
+  - Buggy (0.0.1):
+    - CocoaLumberjack
+    - FBAllocationTracker
+    - Sentry (~> 4.1.0)
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - FBAllocationTracker (0.1.5)
+  - Sentry (4.1.0):
+    - Sentry/Core (= 4.1.0)
+  - Sentry/Core (4.1.0)
+
+DEPENDENCIES:
+  - Buggy (from `../../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+    - FBAllocationTracker
+    - Sentry
+
+EXTERNAL SOURCES:
+  Buggy:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  Buggy: e7b09e6deb597c5bcb87e0c6c79a4bd08d448ec5
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  FBAllocationTracker: dfdca3f71aceca6a85e95e3c6ec76a9785eba0f1
+  Sentry: 44b85e768f435ede4d12ea279af588ff275c3939
+
+PODFILE CHECKSUM: 8aaee4e3e94eba649e158a0ef36a8113462c8eb1
+
+COCOAPODS: 1.6.1
